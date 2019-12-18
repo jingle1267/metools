@@ -1,7 +1,7 @@
 {
-  "name": "metools",
+  "name": "tools",
   "version": "1.0.0",
-  "description": "meTools",
+  "description": "Tools",
   "author": "yimo",
   "private": true,
   "scripts": {
