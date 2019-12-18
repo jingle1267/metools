@@ -23,8 +23,8 @@ a{cursor: pointer;}
   }
   .ymheader .searchTxt{
           position: absolute;
-    width: 200px;
-    left: 120px;
+    width: 90%;
+    left: 20px;
     top: 16px;
     
   }

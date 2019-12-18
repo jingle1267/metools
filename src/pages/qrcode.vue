@@ -35,11 +35,6 @@ export default {
                     Name:'source',
                     Title:'jrQrcode使用',
                     Url:'https://github.com/diamont1001/jrQrcode'
-                },
-                {
-                    Name:'code',
-                    Title:'查看代码',
-                    Url:"http://coding.net/u/yimocoding/p/metools/git/blob/master/src/pages/qrcode.vue"
                 }
             ],
             qrcodeImg:'',

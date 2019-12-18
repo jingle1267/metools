@@ -55,11 +55,6 @@ export default {
                 {
                     Name: 'fanyi',
                     Title: '在线翻译'
-                },
-                {
-                    Name: 'code',
-                    Title: '查看代码',
-                    Url: 'http://coding.net/u/yimocoding/p/metools/git/blob/master/src/pages/fanyi.vue'
                 }
             ],
             model: {

@@ -49,38 +49,18 @@ function getMenuItems(){
             Key: '206',
             MenuName: 'Markdown转换',
             MenuUrl: '/mdconvert'
-        },
-        {
-            Key: '300',
-            MenuName: '友情链接',
-            ChildrenMenu:[
-                {
-                    Key: '301',
-                    MenuName: '易墨‘s_Blog',
-                    MenuUrl: 'http://www.yimo.link',
-                },
-                {
-                    Key: '303',
-                    MenuName: '都没有？那就戳这里',
-                    MenuUrl: 'http://tool.oschina.net/',
-                }
-            ]
         }
     ];
 }
 function getSiteInfo(){
     return {
-        SiteName:'个人工具站 - By 易墨',
+        SiteName:'工具箱',
         LogoUrl:'',//http://www.yimo.link/static/imgs/logo.png',
         ShowMsg:true,
         FooterLinks:[
             {
-                Title: '易墨‘s_Blog',
-                Url: 'http://www.yimo.link',
-            },
-            {
-                Title:'分分钟拥有自己的站点吧',
-                Url:'https://coding.net/u/yimocoding/p/metools/git/blob/master/不花一分钱就能拥有自己的工具站点.MD'
+                Title: 'OSChina 工具',
+                Url: 'https://tool.oschina.net/',
             }
         ]
     }

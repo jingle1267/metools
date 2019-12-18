@@ -1,19 +1,15 @@
 <template>
      <div class="layui-layout layui-layout-admin"  id="app">
         <div class="layui-header ymheader">
-            <a @click="$options.filters.openRoute('/')">
-                <img class="logo layui-circle" v-if="siteInfo.LogoUrl" :src="siteInfo.LogoUrl">
-                <img class="logo layui-circle" v-else src="./assets/images/logo.png">
-            </a>
             <div class="searchTxt">
                 <input type="text" v-model="searchTxt" class="layui-input" placeholder="搜索" @keyup.enter="search"/>
             </div>
             <div class="user-action" v-if="siteInfo.SiteName">
                <a @click="$options.filters.openRoute('/')" v-text="siteInfo.SiteName"></a>
             </div>
-            <div class="user-action" v-else>
-               <a @click="$options.filters.openRoute('/')" >个人工具站 - By 易墨</a>
-            </div>
+            <!--<div class="user-action" v-else>-->
+               <!--<a @click="$options.filters.openRoute('/')" >个人工具站 - By 易墨</a>-->
+            <!--</div>-->
         </div>
         <div class="layui-side layui-bg-black" id="leftMenu">
             <div class="layui-side-scroll">
