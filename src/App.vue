@@ -22,7 +22,6 @@
         <div class="layui-footer footer footer-doc" id="contentFooter" >
             <p v-if="siteInfo.FooterLinks && siteInfo.FooterLinks.length>0">
                 <a :href="item.Url" v-text="item.Title" v-for="item in siteInfo.FooterLinks"  target="_blank"></a>
-                <a @click="openMsg" v-if="siteInfo.ShowMsg">少年需要留个言么？</a>
             </p>
         </div>
     </div>
